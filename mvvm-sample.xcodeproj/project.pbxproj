@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,9 @@
 		D2AC1369251239EF007EE06A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2AC1367251239EF007EE06A /* LaunchScreen.storyboard */; };
 		D2AC1374251239EF007EE06A /* mvvm_sampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC1373251239EF007EE06A /* mvvm_sampleTests.swift */; };
 		D2AC137F251239EF007EE06A /* mvvm_sampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC137E251239EF007EE06A /* mvvm_sampleUITests.swift */; };
+		D2AC138D25161E5D007EE06A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC138C25161E5D007EE06A /* LoginViewController.swift */; };
+		D2AC138F25162776007EE06A /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC138E25162776007EE06A /* LoginViewModel.swift */; };
+		D2AC139125165530007EE06A /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AC139025165530007EE06A /* LoginModel.swift */; };
 		E824109013C95845340F464A /* Pods_mvvm_sampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FFFFC096CD7B7D6683DFC5E /* Pods_mvvm_sampleTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,6 +63,9 @@
 		D2AC137A251239EF007EE06A /* mvvm-sampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mvvm-sampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2AC137E251239EF007EE06A /* mvvm_sampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mvvm_sampleUITests.swift; sourceTree = "<group>"; };
 		D2AC1380251239EF007EE06A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2AC138C25161E5D007EE06A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D2AC138E25162776007EE06A /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		D2AC139025165530007EE06A /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		FD316EE953E45433EFC4BA1C /* Pods-mvvm-sample-mvvm-sampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mvvm-sample-mvvm-sampleUITests.release.xcconfig"; path = "Target Support Files/Pods-mvvm-sample-mvvm-sampleUITests/Pods-mvvm-sample-mvvm-sampleUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,7 +107,6 @@
 				90A2A512A990322EDFED1BD8 /* Pods-mvvm-sampleTests.debug.xcconfig */,
 				A4228B0F47A8CFE3320CA21F /* Pods-mvvm-sampleTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -147,6 +152,9 @@
 				D2AC1365251239EF007EE06A /* Assets.xcassets */,
 				D2AC1367251239EF007EE06A /* LaunchScreen.storyboard */,
 				D2AC136A251239EF007EE06A /* Info.plist */,
+				D2AC138C25161E5D007EE06A /* LoginViewController.swift */,
+				D2AC138E25162776007EE06A /* LoginViewModel.swift */,
+				D2AC139025165530007EE06A /* LoginModel.swift */,
 			);
 			path = "mvvm-sample";
 			sourceTree = "<group>";
@@ -408,8 +416,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2AC138D25161E5D007EE06A /* LoginViewController.swift in Sources */,
+				D2AC139125165530007EE06A /* LoginModel.swift in Sources */,
 				D2AC1361251239EE007EE06A /* ViewController.swift in Sources */,
 				D2AC135D251239EE007EE06A /* AppDelegate.swift in Sources */,
+				D2AC138F25162776007EE06A /* LoginViewModel.swift in Sources */,
 				D2AC135F251239EE007EE06A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
